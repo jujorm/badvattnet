@@ -84,29 +84,3 @@ new Chart(ctx, {
     }
   }
 });
-
-#map {
-  height: 500px;
-  margin: 1em;
-  border-radius: 10px;
-}
-
-.filters {
-  text-align: center;
-  margin: 1.5em;
-}
-
-.chart-section {
-  width: 90%;
-  max-width: 600px;
-  margin: 2em auto;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 1em;
-  background: #e4edf3;
-  font-size: 0.9em;
-  color: #555;
-}
