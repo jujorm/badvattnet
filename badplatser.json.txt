@@ -1,0 +1,22 @@
+[
+  {
+    "namn": "Näset Västra",
+    "lat": 59.3451,
+    "lon": 14.5207,
+    "kvalitet": "Utmärkt",
+    "eColi": 25,
+    "enterokocker": 12,
+    "datum": "2025-07-15",
+    "tillganglighet": ["Ramp", "Toalett"]
+  },
+  {
+    "namn": "Lunnedet Camping",
+    "lat": 59.3443,
+    "lon": 14.4478,
+    "kvalitet": "Bra",
+    "eColi": 45,
+    "enterokocker": 20,
+    "datum": "2025-07-14",
+    "tillganglighet": ["Ramp"]
+  }
+]

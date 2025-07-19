@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Badvattnet nära dig</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Kartbibliotek -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Chart.js för temperaturgraf -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header class="hero">
+    <img src="logo.svg" alt="Badvattnet" class="logo">
+    <h1>Badvattnet nära dig</h1>
+    <p>Hitta bästa doppet – med koll på kvalitet</p>
+    <input type="text" id="searchBox" placeholder="Sök badplats eller ort...">
+  </header>
+
+  <div id="map"></div>
+
+  <section class="filters">
+    <label for="accessFilter">Tillgänglighet:</label>
+    <select id="accessFilter">
+      <option value="Alla">Alla</option>
+      <option value="Ramp">Ramp</option>
+      <option value="Toalett">Toalett</option>
+      <option value="Lift">Badlift</option>
+    </select>
+  </section>
+
+  <section class="chart-section">
+    <h2>Vattentemperatur senaste 5 dagar</h2>
+    <canvas id="tempChart"></canvas>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Badvattnet.se – All data från Hav & Vattenmyndigheten och SMHI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
